@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="A description of the page and its contents"
+        />
+        <title>Scrape Google Sheets</title>
+    </head>
+    <body>
+        <main>
+            <table></table>
+        </main>
+        
+
+        <script src="./node_modules/papaparse/papaparse.js"></script>
+        <script>
+            const url = "https://docs.google.com/spreadsheets/d/1oc_ac8XTmjcoUjy0l_vj6m5j4YYVFuRykybSHToDAME/edit?usp=sharing"
+
+            const xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = () => {
+                if(xhr.readyState == 4 && xhr.status == 200){
+                    console.log({resTxt: xhr.responseText})
+                }
+            }
+
+        </script>
+    </body>
+</html>

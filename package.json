@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "papaparse": "^5.3.2"
+  },
+  "name": "practice-scraper",
+  "description": "This is a place to practice my scraping abilities",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gilblasse/Practice-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gilblasse/Practice-Scraper/issues"
+  },
+  "homepage": "https://github.com/Gilblasse/Practice-Scraper#readme"
+}
